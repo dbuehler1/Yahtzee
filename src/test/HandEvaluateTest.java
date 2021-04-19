@@ -11,5 +11,7 @@ public class HandEvaluateTest {
     void Yahtzee(){assertEquals("Yahtzee!", determineResult(new String[]{"2", "2", "2", "2", "2"}));}
     @Test
     void ThreeofaKind(){assertEquals("Three of a Kind!", determineResult(new String[]{"3", "1", "2", "2", "2"}));}
+    @Test
+    void TwoPair(){assertEquals("Two Pair!", determineResult(new String[]{"1", "1", "2", "2", "3"}));}
 
 }
