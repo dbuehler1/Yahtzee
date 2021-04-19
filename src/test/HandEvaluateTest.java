@@ -7,5 +7,7 @@ import static edu.wctc.handEvaluater.*;
 public class HandEvaluateTest {
     @Test
     void FullHouse(){assertEquals("Full House!", determineResult(new String[]{"1", "1", "2", "2", "2"}));}
+    @Test
+    void Yahtzee(){assertEquals("Yahtzee!", determineResult(new String[]{"2", "2", "2", "2", "2"}));}
 
 }
