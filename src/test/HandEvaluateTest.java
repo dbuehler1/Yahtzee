@@ -15,5 +15,6 @@ public class HandEvaluateTest {
     void TwoPair(){assertEquals("Two Pair!", determineResult(new String[]{"1", "1", "2", "2", "3"}));}
     @Test
     void Pair(){assertEquals("Pair!", determineResult(new String[]{"6", "6", "2", "3", "5"}));}
-
+    @Test
+    void OneofaKind(){assertEquals("One of a Kind!", determineResult(new String[]{"1", "2", "4", "3", "5"}));}
 }
